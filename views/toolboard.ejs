@@ -3,17 +3,17 @@
 <main>
   <h1>Toolboard</h1>
   <% principes.forEach(principe => { %>
-  <article>
-    <section class="inleiding">
+  <article class="toolboard">
+    <section class="principals">
       <h2><%= principe.titel %></h2>
-      <%- principe.beschrijving.html %>
+      <p><%- principe.beschrijving.html %></p>
     </section>
-    <section class="richtlijnen">
+    <section class="guidelines">
       <% principe.richtlijnen.forEach(richtlijn => { %>
 
 
-        <!-- %= richtlijn.titel %
-        %- richtlijn.uitleg.html % -->
+       <button class="guidelines__btn"><%= richtlijn.titel %></button> 
+        <!-- %- richtlijn.uitleg.html %>  -->
 
       <% }) %>
     </section>

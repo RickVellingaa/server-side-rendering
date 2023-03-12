@@ -101,7 +101,49 @@ header .logo {
 }
 
 main {
-    /* background-color: bisque; */
     height: 100%;
-    width: 100%;
+    width: 75vw;
+    max-width: 85vw;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+h1 {
+    color: var(--main-pink);
+    font-size: 3em;
+}
+
+h2 {
+    color: var(--main-pink);
+}
+
+.principals p {
+    font-family: var(--textFont);
+}
+
+.toolboard {
+    background-color: #fff;
+    border-radius: 1em;
+    margin: .5em 0;
+    padding: 1em;
+}
+
+.guidelines__btn {
+    border: 2px solid var(--main-pink);
+    padding: .5em;
+    font-size: .8em;
+    cursor: pointer;
+    margin: .4em .2em;
+    border-radius: 50px;
+    outline: none;
+    background: transparent;
+}
+
+.guidelines__btn:hover{
+    background-color: var(--main-pink);
+    color: #fff;
+}
+
+.guidelines .guidelines__btn:first-child{
+    margin-left: 0;
 }
