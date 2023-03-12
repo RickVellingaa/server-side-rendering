@@ -78,6 +78,7 @@ header .logo {
 
 .navigation ul li a{
     text-decoration: none;
+    color: black;
 }
 
 .navigation ul li a:visited{
