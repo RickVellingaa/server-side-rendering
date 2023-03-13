@@ -11,15 +11,16 @@
     <section class="guidelines">
       <% principe.richtlijnen.forEach(richtlijn => { %>
 
-
-       <button class="guidelines__btn"><%= richtlijn.titel %></button> 
-        <!-- %- richtlijn.uitleg.html %>  -->
+        <div>
+          <button class="guidelines__btn" id="<%= richtlijn.titel.toLowerCase() %>"><%= richtlijn.titel %></button>
+        </div>
+      
 
       <% }) %>
     </section>
   </article>
   <% }) %>
 </main>
-
+<script src="./scripts/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.slim.js" integrity="sha256-dWvV84T6BhzO4vG6gWhsWVKVoa4lVmLnpBOZh/CAHU4=" crossorigin="anonymous"></script>
 <%- include('./partials/foot') %>
-

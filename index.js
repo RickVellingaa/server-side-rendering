@@ -20,12 +20,6 @@ app.get('/', function (req, res) {
   res.render('toolboard', data)
 })
 
-// app.get('/toolboard', function (req, res) {
-//   // res.send('Hello World!')
-//   res.render('toolboard', data)
-//   console.log(data);
-// })
-
 app.get('/contact', function (req, res) {
   // res.send('Hello World!')
   res.render('contact')
@@ -40,4 +34,8 @@ app.listen(app.get('port'), function () {
   console.log(`Application started on http://localhost:${app.get('port')}`)
 })
 
-console.log(data);
+async function fetchJson(url) {
+  return await fetch(url)
+    .then((response) => response.json())
+    .catch((error) => error)
+}

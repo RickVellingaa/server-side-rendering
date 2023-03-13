@@ -148,3 +148,15 @@ h2 {
 .guidelines .guidelines__btn:first-child{
     margin-left: 0;
 }
+
+[data-id="tekstalternatieven"] {
+    color: red;
+}
+
+#tekstalternatieven {
+    color: red;
+}
+
+#summary {
+    display: none;
+}
