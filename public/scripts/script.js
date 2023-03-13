@@ -1,18 +1,14 @@
-var principleTime = document.getElementById('op tijd gebaseerde media');
-principleTime.id = "optijdgebaseerdemedia";
+const guidelineBtn = document.querySelectorAll('.guidelines__btn')
+const guidelineInfo = document.querySelectorAll('.principleInfo')
 
-var onTime = document.getElementById('genoeg tijd');
-onTime.id = "genoegtijd";
+guidelineBtn.forEach(item => {
+    item.addEventListener('click', () => {
+        const id = item.dataset.id
+        const active = document.getElementById(id)
 
-var physical = document.getElementById('toevallen en fysieke reacties');
-physical.id = "toevallenenfysiekereacties";
-
-var input = document.getElementById('input modaliteiten');
-input.id = "inputmodaliteiten";
-
-var assistent = document.getElementById('assistentie bij invoer');
-assistent.id = "assistentiebijinvoer";
-
-
-
-
+        guidelineInfo.forEach(content => content.classList.add('hide'))
+        active.classList.remove('hide')
+        
+    }) 
+  
+});

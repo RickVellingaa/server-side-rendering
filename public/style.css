@@ -149,14 +149,35 @@ h2 {
     margin-left: 0;
 }
 
-[data-id="tekstalternatieven"] {
-    color: red;
+.principleInfo {
+    background-color: #f5f4f4;
+    border-radius: 0 0 10px 10px;
+    padding: .5em;
 }
 
-#tekstalternatieven {
-    color: red;
+.principleInfo p, .principleInfo ul li div, .principleInfo ol li div{
+    color: black;
+    font-family: var(--textFont);
+    font-size: .85em;
 }
 
-#summary {
+.principleInfo p{
+    padding: 4px 0;
+}
+
+.principleInfo ul, .principleInfo ol {
+    margin-left: 1em;
+    list-style-type:decimal;
+    color: black;
+    font-family: var(--textFont);
+}
+
+.hide {
     display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .principleInfo ul li {
+        padding: 4px 0;
+    }
 }
