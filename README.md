@@ -37,8 +37,7 @@ Naast deze kenmerken heb ik doormiddel van een forEach loop ervoor gezorgd dat i
  4. Open de command line
  5. Voer npm install uit
  6. npm start in terminal/command line
- 7. Ga vervolgens na de link wat onderaan in de terminal komt de staan in een browser (Waarschijnlijk localhost:8000)
-
+ 7. Ga vervolgens na de link wat onderaan in de terminal komt de staan in een browser
 ## Gebruik
 
 Met dit project kan je ervoor zorgen dat je een website (van een partner) kan beoordelen volgens de checklist van de WCAG principes en richtlijnen. Uiteindelijk kan je op basis van de succescritera kijken wat er nog niet gelukt is en op basis daarvan je website verbeteren. 
