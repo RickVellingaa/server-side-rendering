@@ -3,7 +3,7 @@ const guidelineInfo = document.querySelectorAll('.principleInfo')
 
 const currentLocation = location.href;
 const menuItem = document.querySelectorAll('a');
-const menuLength = menuItem.length; 
+const menuLength = menuItem.length;
 
 guidelineBtn.forEach(item => {
     item.addEventListener('click', () => {
@@ -12,15 +12,14 @@ guidelineBtn.forEach(item => {
 
         guidelineInfo.forEach(content => content.classList.add('hide'))
         active.classList.remove('hide')
-        
-    }) 
-  
+
+    })
+
 });
 
-for (let i = 0; i<menuLength; i++) {
+for (let i = 0; i < menuLength; i++) {
     // console.log(menuItem[i].href);
-    if(menuItem[i].href === currentLocation) {
+    if (menuItem[i].href === currentLocation) {
         menuItem[i].className = "active "
     }
 }
-
