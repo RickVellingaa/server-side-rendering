@@ -101,6 +101,10 @@ header .logo {
     border-radius: 60% 0 0 0;
 }
 
+.navigation ul li a.active {
+    color: var(--main-pink);
+}
+
 main {
     height: 100%;
     width: 75vw;
