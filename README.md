@@ -44,6 +44,6 @@ Met dit project kan je ervoor zorgen dat je een website (van een partner) kan be
 
 ## Bronnen
 
-https://api.vervoerregio-amsterdam.fdnd.nl/docs <br>
-https://vervoerregio.nl/ <br>
-https://github.com/fdnd-agency/vervoerregio-amsterdam/blob/main/Vervoerregio%20Handboek_Huisstijl%202021.pdf
+[Vervoerregio Amsterdam API](https://api.vervoerregio-amsterdam.fdnd.nl/docs) <br>
+[Vervoerregio Amsterdam](https://vervoerregio.nl/) <br>
+[Huisstijl Vervoerregio Amsterdam](https://github.com/fdnd-agency/vervoerregio-amsterdam/blob/main/Vervoerregio%20Handboek_Huisstijl%202021.pdf)
