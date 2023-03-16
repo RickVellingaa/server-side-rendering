@@ -1,9 +1,12 @@
+// Buttons voor informatie principes
 const guidelineBtn = document.querySelectorAll('.guidelines__btn')
 const guidelineInfo = document.querySelectorAll('.principleInfo')
 
+// Buttons voor informatie crincipes
 const criteriaBtn = document.querySelectorAll('.guidelines__btn1')
-const criteraInfo = document.querySelectorAll('.principleInfo1')
+const criteraInfo = document.querySelectorAll('.criteriaInfo')
 
+// Active menu item
 const currentLocation = location.href;
 const menuItem = document.querySelectorAll('a');
 const menuLength = menuItem.length;
@@ -32,7 +35,7 @@ criteriaBtn.forEach(item => {
 
 });
 
-
+// Active menu item
 for (let i = 0; i < menuLength; i++) {
     // console.log(menuItem[i].href);
     if (menuItem[i].href === currentLocation) {
