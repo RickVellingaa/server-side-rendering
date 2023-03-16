@@ -14,9 +14,23 @@
       <button class="guidelines__btn" data-id="<%= richtlijn.titel.toLowerCase() %>"><%= richtlijn.titel %></button>
 
       <% }) %>
+      
       <% principe.richtlijnen.forEach(richtlijn => { %>
 
-      <div class="principleInfo hide" id="<%= richtlijn.titel.toLowerCase() %>"><%- richtlijn.uitleg.html %></div>
+      <div class="principleInfo hide" id="<%= richtlijn.titel.toLowerCase() %>">
+        <div>
+          <%- richtlijn.uitleg.html %>
+        </div>
+        <% richtlijn.succescriteria.forEach(succescriterium=> { %>
+          <button class="guidelines__btn1" data-id="<%= `${succescriterium.id}` %>"><%= `${succescriterium.index} ${succescriterium.titel} niveau ${succescriterium.niveau}` %></button>
+          <% }) %>
+          <% richtlijn.succescriteria.forEach(succescriterium=> { %>
+            <section class="succescriteria">
+              <p class="principleInfo1 hide1" id="<%= `${succescriterium.id}` %>"><%= `${succescriterium.titel}` %></p>
+            </section>
+            <% }) %>
+  
+      </div>
 
       <% }) %>
     </section>

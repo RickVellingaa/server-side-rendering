@@ -133,7 +133,7 @@ h2 {
     padding: 1em;
 }
 
-.guidelines__btn {
+.guidelines__btn, .guidelines__btn1 {
     border: 2px solid var(--main-pink);
     padding: .5em;
     font-size: .8em;
@@ -144,12 +144,12 @@ h2 {
     background: transparent;
 }
 
-.guidelines__btn:hover{
+.guidelines__btn:hover, .guidelines__btn1:hover{
     background-color: var(--main-pink);
     color: #fff;
 }
 
-.guidelines .guidelines__btn:first-child{
+.guidelines .guidelines__btn:first-child, .guidelines .guidelines__btn1:first-child{
     margin-left: 0;
 }
 
@@ -180,7 +180,7 @@ h2 {
     font-family: var(--textFont);
 }
 
-.hide {
+.hide, .hide1 {
     display: none;
 }
 
